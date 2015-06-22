@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Each Git repository is tied to a specific directory - the directory where you ran git init. Only files from that directory (and subdirectories inside that directory) will be contained in that repository, and you can have different repositories in different directories.
+
+Note: it's often the case that a Git repository in some directory will only contain, or track, some of the files in that directory, rather than all of them.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area shows the files that are ready to be committed. It gives us more control over which files to add to the commit. git status and git add are the git commands that operate on this staging area. However, the working directory shows us the files currently in the directory attached to the repository. We see the files in the directory using the git status command.(which shows us the untracked files and tracked files)
+
