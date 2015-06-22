@@ -8,3 +8,6 @@ How is the staging area different from the working directory and the repository?
 
 Staging area shows the files that are ready to be committed. It gives us more control over which files to add to the commit. git status and git add are the git commands that operate on this staging area. However, the working directory shows us the files currently in the directory attached to the repository. We see the files in the directory using the git status command.(which shows us the untracked files and tracked files)
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+By adding the files required per one logical change using git add *, where * stands for the respective files to be added. And then using git commit to commit the changes per each logical change.
