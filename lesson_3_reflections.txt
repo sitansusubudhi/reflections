@@ -21,3 +21,7 @@ We can update our local copy of remote branches, and see how to combine conflict
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
  Sending project files via email or uploading on drive and sharing the link with my friends.However, we will be loosing the history of project changes. This makes it hard to combine the work of multiple people.
+
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? 
+
+ When we are testing out a new feature in a project, that we know are certain to cause bugs in project and want to add this feature only after they are properly tested out. We want to make such a branch such that the master branch always remains error free, since this is where any one would first visit the page.
