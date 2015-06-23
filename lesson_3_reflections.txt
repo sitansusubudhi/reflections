@@ -13,3 +13,7 @@ fork- similar to clone except copy the content and states of the project files i
 clone- copying a repository from Github repository to own machine or copying a repository withing the same machine.
 
 branches- used for experimenting new features that may not be added to the main master branch yet. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+We can update our local copy of remote branches, and see how to combine conflicting changes from multiple people working on the repository. It helps in checking if changes were made in the GitHub repository compared to its offline repository.
