@@ -17,3 +17,7 @@ branches- used for experimenting new features that may not be added to the main 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 We can update our local copy of remote branches, and see how to combine conflicting changes from multiple people working on the repository. It helps in checking if changes were made in the GitHub repository compared to its offline repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+ Sending project files via email or uploading on drive and sharing the link with my friends.However, we will be loosing the history of project changes. This makes it hard to combine the work of multiple people.
