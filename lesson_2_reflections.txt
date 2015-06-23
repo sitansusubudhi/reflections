@@ -23,3 +23,7 @@ They give us the branches name, and show us which commits are reachable and whic
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Facilitates final addition of a new or experimental feature to the master and updates its header. By representing it in the diagram, we can clearly see the commits which were done using both branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Git's automatic merging adds the extra features that were added in the different branches to be merged, but if there is a part of the code in the original file that was changed in both the branches, then merge conflict occurs even though the change was very small or not so difficult for humans to to understand. Merging manually resolves this conflict in both the branches. Merging manually always irritates anyone.
